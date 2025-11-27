@@ -28,13 +28,13 @@ The Iris dataset contains 150 flower samples with 4 numerical features and 1 tar
 - Sepal features overlap across species.
 - Distributions are mostly symmetric with minimal outliers.
 
-## 🧩 Libraries Used
+##  Libraries Used
 - pandas  
 - seaborn  
 - matplotlib
 
 
-Task 2: Predict Future Stock Prices (Next-Day Close) Using Linear Regression
+# Task 2: Predict Future Stock Prices (Next-Day Close) Using Linear Regression
 
 ## Objective
 The goal of this task is to use historical stock market data to predict the next day's closing price.
@@ -100,9 +100,10 @@ Model evaluation with MSE
 Data visualization
 
 ## Learning Resources
-
 yfinance documentation: https://pypi.org/project/yfinance/
+
 Linear Regression (Scikit-Learn):
 https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
+
 Stock price prediction basics (YouTube):
 https://www.youtube.com/watch?v=2BrpKpWwT2A
