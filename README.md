@@ -170,10 +170,18 @@ Training data required careful missing value handling
 Neighborhood (categorical feature) significantly influences house prices
 
 ## Skills Gained:
+
 Kaggle API data downloading
+
 Missing value handling
+
 Feature selection & encoding
+
+
 Regression modeling
+
 Model evaluation (MAE, RMSE)
+
 Data visualization
+
 Real estate feature understanding
