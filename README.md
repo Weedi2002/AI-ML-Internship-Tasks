@@ -107,3 +107,73 @@ https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearReg
 
 Stock price prediction basics (YouTube):
 https://www.youtube.com/watch?v=2BrpKpWwT2A
+
+## Task 06: House Price Prediction:
+
+## Task Objective
+The goal of this task is to build a machine learning model that predicts house prices using features such as square footage, number of bedrooms, bathrooms, and neighborhood. This task focuses on data preprocessing, regression modeling, and evaluation using standard metrics.
+
+## Dataset Used
+Dataset: House Prices — Advanced Regression Techniques
+Source: Kaggle Competition
+Link: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
+
+## Files Used:
+train.csv — training data with prices
+test.csv — test data without labels
+Additional files (documentation, data dictionary)
+
+## Data Preprocessing
+
+Preprocessing steps performed:
+## Handling Missing Values
+Numerical columns filled with median
+Categorical columns filled with mode
+
+## Feature Selection
+Selected key features:
+OverallQual
+GrLivArea
+GarageCars
+TotalBsmtSF
+FullBath
+YearBuilt
+Neighborhood (categorical)
+Encoding Categorical Data
+Used OneHotEncoding for Neighborhood
+Applied using ColumnTransformer
+
+🤖 Models Applied
+Linear Regression
+Simple, interpretable regression model
+Works as a baseline for comparison
+
+## Model Evaluation
+Models were evaluated using:
+MAE — Mean Absolute Error
+RMSE — Root Mean Squared Error
+
+These metrics help compare prediction error magnitude.
+## Visualizations:
+The following plots were generated:
+## Actual vs Predicted Sale Prices:
+Scatter plot showing prediction performance
+(Gradient Boosting performed significantly better)
+## Distribution Analysis:
+Checked feature distributions for understanding their impact on price
+(optional based on your notebook steps)
+
+## Key Findings:
+OverallQual, GrLivArea, and GarageCars were the strongest predictors
+Gradient Boosting outperformed Linear Regression
+Training data required careful missing value handling
+Neighborhood (categorical feature) significantly influences house prices
+
+## Skills Gained:
+Kaggle API data downloading
+Missing value handling
+Feature selection & encoding
+Regression modeling
+Model evaluation (MAE, RMSE)
+Data visualization
+Real estate feature understanding
